@@ -22,7 +22,6 @@ class SaneSetup  {
       $this->show_notice('Sane Setup has configured WordPress. <a href="'.admin_url().'?sane_setup_action=deactivate_sane_setup">Deactivate the Sane Setup plugin to remove this message</a>', 'updated'); 
       if ($this->get_sane_setup_action()  == 'deactivate_sane_setup') {
         $this->deactivate_self();
-        $this->show_notice('Sane Setup has been deactivated', 'updated');
       }
 
     } else {
