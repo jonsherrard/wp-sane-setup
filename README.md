@@ -22,3 +22,9 @@ Once the plugin is enabled, a WordPress admin notice will ask you to run sane se
 Once the WP Sane Setup has run, the plugin is rundundant, and an admin notice will ask you to deactivate the plugin. After this you may want to delete WP Sane Setup from your plugins.
 
 ![Done Admin Notice](http://i.imgur.com/uIGky3u.png)
+
+## Contributing
+
+Contributions for other 'sane defaults' are welcome. Send me a pull request!
+
+It's pretty easy, just wrap the singular change you want to make in a function, then in `function do_setup()`, call  `$this->example_change();`.
