@@ -2,6 +2,10 @@
 
 Make some sensible setup changes to a new WordPress installation.
 
+NB:
+
+This plugin only makes changes to the database, nothing is hardcoded.
+
 ## Changes WP Sane Setup will make to your fresh install:
 
  - Delete the 'Hello World' post
