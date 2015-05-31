@@ -125,9 +125,9 @@ class SaneSetup  {
 
   function delete_sample_page() {
     // Find and delete the WP default 'Sample Page'
-    $defaultPage = get_page_by_title( 'Sample Page' );
-    if ($defaultPage) {
-      wp_delete_post( $defaultPage->ID );
+    $default_page = get_page_by_title( 'Sample Page' );
+    if ($default_page) {
+      wp_delete_post( $default_page->ID );
     }
   }
 
