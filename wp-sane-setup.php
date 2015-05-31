@@ -10,7 +10,6 @@ Author URI: http://twitter.com/jshez
 License: GPL2
 */
 
-
 class SaneSetup  {
 
   function __construct() {
