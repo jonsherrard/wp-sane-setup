@@ -8,7 +8,7 @@ Make some sensible setup changes to a new WordPress installation.
  - Delete the 'Sample' page
  - Create a 'Home' page
  - Set the front page to 'Home'
- - Rename the 'Uncatogorized' category to 'News'
+ - Rename the 'Ucategorized' category to 'News'
  - Set the start of the week to Monday
  - Set default permalinks to `/category/post-name`
  - Disable emojis
