@@ -54,6 +54,7 @@ class SaneSetup  {
   }
 
   function do_setup() {
+    $this->create_a_menu();
     $this->delete_hello_world();
     $this->delete_sample_page();
     $this->create_home_page();
@@ -63,6 +64,10 @@ class SaneSetup  {
     $this->update_permalinks();
     $this->disable_emojis();
     update_option( 'sane_setup', '1' );
+  }
+
+  function create_a_menu() {
+    wp_create_nav_menu('main');
   }
 
   function disable_emojis() {
