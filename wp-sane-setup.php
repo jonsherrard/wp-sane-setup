@@ -76,7 +76,7 @@ class SaneSetup  {
 
   function update_permalinks() {
     update_option( 'selection','custom' ); 
-    update_option( 'permalink_structure','/%category%/%postname%/' ); 
+    update_option( 'permalink_structure','/%category%/%postname%' ); 
   }
 
   function set_start_of_week() {
