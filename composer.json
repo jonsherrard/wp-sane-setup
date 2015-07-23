@@ -2,7 +2,7 @@
     "name": "jonsherrard/wp-sane-setup",
     "type": "wordpress-plugin",
     "description": "Make some sensible setup changes to a new WordPress installation",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "license": "GPLv2",
     "authors": [
         {
