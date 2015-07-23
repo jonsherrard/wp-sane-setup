@@ -4,7 +4,7 @@
 Plugin Name: WP Sane Setup
 Plugin URI: http://github.com/jonsherrard/wp-sane-setup
 Description: Set sane defaults on an initial WordPress Install
-Version: 0.1
+Version: 0.2.2
 Author: Jon Sherrard
 Author URI: http://twitter.com/jshez
 License: GPL2
